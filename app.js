@@ -3,6 +3,7 @@ const libros = [
     { id: 2, titulo: "Boulevard", precio: 349 },
     { id: 3, titulo: "Bajo La Misma Estrella", precio: 400 }
 	{ id: 4, titulo: "Harry Potter", precio: 400 }
+	{ id: 5, titulo: "El Principito", precio: 400 }
 ];
 
 let carrito = [];
