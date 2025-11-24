@@ -27,6 +27,15 @@ document.querySelectorAll(".btn-agregar").forEach(boton => {
         const libro = libros.find(l => l.id === id);
         carrito.push(libro);
         renderCarrito();
+
+mensajeEstado.textContent = `Agregaste "${libro.titulo}" al carrito`;
+mensajeEstado.style.color = "blue";
+
+setTimeout(() => {
+    mensajeEstado.textContent = "";
+}, 1500);
+
+
     });
 });
 
