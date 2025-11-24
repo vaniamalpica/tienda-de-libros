@@ -1,8 +1,9 @@
 const libros = [
-    { id: 1, titulo: "El Principito", precio: 150 },
-    { id: 2, titulo: "Cien Años de Soledad", precio: 220 },
-    { id: 3, titulo: "Don Quijote de la Mancha", precio: 180 }
-	{ id: 4, titulo: "Don Quijote de la Mancha", precio: 180 }
+    { id: 1, titulo: "Orgullo y Prejuicio", precio: 470 },
+    { id: 2, titulo: "Boulevard", precio: 349 },
+    { id: 3, titulo: "Bajo La Misma Estrella", precio: 400 }
+	{ id: 4, titulo: "Harry Potter", precio: 400 }
+	{ id: 5, titulo: "El Principito", precio: 400 }
 ];
 
 let carrito = [];
