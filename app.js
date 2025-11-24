@@ -2,6 +2,7 @@ const libros = [
     { id: 1, titulo: "El Principito", precio: 150 },
     { id: 2, titulo: "Cien Años de Soledad", precio: 220 },
     { id: 3, titulo: "Don Quijote de la Mancha", precio: 180 }
+	{ id: 4, titulo: "Don Quijote de la Mancha", precio: 180 }
 ];
 
 let carrito = [];
